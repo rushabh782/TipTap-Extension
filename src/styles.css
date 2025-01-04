@@ -1,0 +1,13 @@
+.fancy-highlight {
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fancy-highlight:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
